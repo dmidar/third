@@ -502,7 +502,7 @@ li.lang a{
 .play-button:after {
     content:'\25B7';
     color: #fff;
-    font-size: 5em;
+    font-size: 100px;
     line-height: 150px;
 }
 
@@ -680,6 +680,7 @@ footer .icons i:hover{
     
     .play-button:after {
     line-height: 90px;
+        font-size: 70px;
     }
     
     .overlay-content p{
@@ -933,22 +934,24 @@ footer .icons i:hover{
         opacity: 0.1;
         width: 100%;
         z-index: 1;
-        height: 450px;
     }
     
     .gasprom_project .bgrnd{
         background-position: 0% 60px;
+        height: 450px;
     }
     
     .tinkoff_project .bgrnd{
-         background: url(../img/phone.png) 90% 68px/40% no-repeat;
+         background: url(../img/phone.png) 50% 50%/60% no-repeat;
          left: 0;
          margin-left: 0;
+         height: 500px;
     }
     
     .adidas_project .bgrnd{
         background-position: 0% 60px;
         background-size: 90%;
+        height: 450px;
     }
     
     .gasprom_project .project_txt,

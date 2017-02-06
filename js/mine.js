@@ -7,7 +7,7 @@ $('.menu_icon, .close').on('click', function(){
 
 
 //Video slider
-$('.play-button').on('click', function () {
+$('.cntr_fig').on('click', function () {
     $(this).hide();
     $(this).parent().fadeOut();
     $(this).parent().siblings('.slider-video')[0].play();
@@ -38,7 +38,7 @@ function previousSlide(){
 
 function stopCurrentVideo(){
     $('.slider-video:eq('+pos+')').load().removeAttr('controls')
-    .siblings('.overlay-content').show().find('.play-button').show();
+    .siblings('.overlay-content').show().find('.cntr_fig').show();
 }
 
 /*$('.left').click(previousSlide);*/
